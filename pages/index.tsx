@@ -14,7 +14,9 @@ const Home: NextPage = () => {
 	};
 
 	const handleClick = async () => {
-		const res = await fetch(`/api/generate?imageUrl=${imageUrl}`);
+		const res = await fetch(
+			`${process.env.MEXT_PUBLIC_HOSTNAME}/api/generate?imageUrl=${imageUrl}`
+		);
 		const json = await res.json();
 		console.log(json);
 		setResponse(json);
