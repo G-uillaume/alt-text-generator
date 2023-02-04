@@ -13,7 +13,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 # How it works
 
-Go to [https://replicate.com/] and create a accompte.
+Go to [https://replicate.com/](https://replicate.com/) and create a accompte.
 
 Go to your account settings, and create a new API key.
 
