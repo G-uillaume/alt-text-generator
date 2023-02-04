@@ -37,6 +37,12 @@
   align-items: center;
 }
 
+.img {
+  wdith: 700px;
+  height: 700px;
+  object-fit: contain;
+}
+
 .res {
   width: 50%;
   

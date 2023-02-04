@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import type { NextPage } from 'next';
 import { useState } from 'react';
 import Head from 'next/head';
@@ -15,7 +16,7 @@ const Home: NextPage = () => {
 
 	const handleClick = async () => {
 		const res = await fetch(
-			`${process.env.MEXT_PUBLIC_HOSTNAME}/api/generate?imageUrl=${imageUrl}`
+			`${process.env.NEXT_PUBLIC_HOSTNAME}/api/generate?imageUrl=${imageUrl}`
 		);
 		const json = await res.json();
 		console.log(json);
@@ -51,9 +52,8 @@ const Home: NextPage = () => {
 
 				<div className={styles.imgContainer}>
 					{imageUrl && (
-						<Image
-							width={700}
-							height={700}
+						<img
+							className={styles.img}
 							style={{
 								objectFit: 'contain',
 							}}
