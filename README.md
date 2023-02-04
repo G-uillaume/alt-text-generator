@@ -29,4 +29,4 @@ Copy any image link into the input filed.
 
 Click on generate text button to have your alternative text generated.
 
-This project if forked from [https://vercel.com/templates/next.js/ai-alt-text-generator]
+This project if forked from [https://vercel.com/templates/next.js/ai-alt-text-generator](https://vercel.com/templates/next.js/ai-alt-text-generator)

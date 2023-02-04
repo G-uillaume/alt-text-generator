@@ -61,6 +61,7 @@ const Home: NextPage = () => {
 							alt="Image from URL"
 						/>
 					)}
+					<p className={styles.p}>Your Alt Text here:</p>
 					{response && (
 						<span className={styles.res}>
 							<p className={styles.p}>{response}</p>
